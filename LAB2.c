@@ -3,7 +3,7 @@
 #define INF 999
 int main()
 {
-   int cost[MAX][MAX], visited[MAX]={0};
+int cost[MAX][MAX], visited[MAX]={0};
    int n,i,j,edges=0,min,u,v,total=0,s;
    printf("Enter number of vertices: ");
    scanf("%d",&n);
