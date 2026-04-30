@@ -4,7 +4,7 @@
 int parent[MAX];
 int find(int x)
 {
-   while(parent[x])
+ while(parent[x])
        x = parent[x];
    return x;
 }
